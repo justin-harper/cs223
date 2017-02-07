@@ -1,1 +1,2 @@
-CTS 223
+## Computer Science 223
+## Instructor: Evan Olds

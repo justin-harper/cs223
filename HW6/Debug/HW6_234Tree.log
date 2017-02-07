@@ -1,0 +1,36 @@
+﻿Build started 7/26/2014 1:38:51 PM.
+     1>Project "C:\Users\Justin\Dropbox\School\WSU\CTS 223\HW6\HW6_234Tree.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt hw6_main.cpp
+         hw6_main.cpp
+     1>c:\users\justin\dropbox\school\wsu\cts 223\hw6\hw6_main.cpp(37): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\justin\dropbox\school\wsu\cts 223\hw6\hw6_main.cpp(124): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\justin\dropbox\school\wsu\cts 223\hw6\hw6_234tree.h(342): warning C4800: 'Student *' : forcing value to bool 'true' or 'false' (performance warning)
+                 c:\users\justin\dropbox\school\wsu\cts 223\hw6\hw6_234tree.h(333) : while compiling class template member function 'bool hw6_234tree<Student>::AddHelp(T *,hw6_234tree<T>::Node *,hw6_234tree<T>::Node *,int)'
+                 with
+                 [
+                     T=Student
+                 ]
+                 c:\users\justin\dropbox\school\wsu\cts 223\hw6\hw6_234tree.h(329) : see reference to function template instantiation 'bool hw6_234tree<Student>::AddHelp(T *,hw6_234tree<T>::Node *,hw6_234tree<T>::Node *,int)' being compiled
+                 with
+                 [
+                     T=Student
+                 ]
+                 c:\users\justin\dropbox\school\wsu\cts 223\hw6\hw6_main.cpp(25) : see reference to class template instantiation 'hw6_234tree<Student>' being compiled
+     1>c:\users\justin\dropbox\school\wsu\cts 223\hw6\hw6_234tree.h(392): warning C4800: 'Student *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\justin\dropbox\school\wsu\cts 223\hw6\hw6_234tree.h(412): warning C4800: 'Student *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\justin\dropbox\school\wsu\cts 223\hw6\hw6_234tree.h(441): warning C4800: 'Student *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\justin\dropbox\school\wsu\cts 223\hw6\hw6_234tree.h(458): warning C4800: 'Student *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\justin\dropbox\school\wsu\cts 223\hw6\hw6_234tree.h(466): warning C4800: 'Student *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\justin\dropbox\school\wsu\cts 223\hw6\hw6_234tree.h(490): warning C4800: 'Student *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\justin\dropbox\school\wsu\cts 223\hw6\hw6_234tree.h(498): warning C4715: 'hw6_234tree<Student>::AddHelp' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Justin\Dropbox\School\WSU\CTS 223\HW6\Debug\HW6_234Tree.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Justin\Dropbox\School\WSU\CTS 223\HW6\Debug\HW6_234Tree.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Justin\Dropbox\School\WSU\CTS 223\HW6\Debug\HW6_234Tree.lib" /MACHINE:X86 Debug\hw6_main.obj
+         Debug\Student.obj
+         HW6_234Tree.vcxproj -> C:\Users\Justin\Dropbox\School\WSU\CTS 223\HW6\Debug\HW6_234Tree.exe
+     1>Done Building Project "C:\Users\Justin\Dropbox\School\WSU\CTS 223\HW6\HW6_234Tree.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.94
